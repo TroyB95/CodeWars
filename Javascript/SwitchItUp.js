@@ -1,10 +1,10 @@
-When provided with a number between 0-9, return it in words.
+// When provided with a number between 0-9, return it in words.
 
-Input :: 1
+// Input :: 1
 
-Output :: "One".
+// Output :: "One".
 
-Try using "Switch" statements.
+// Try using "Switch" statements.
 
 
 function switchItUp(number){

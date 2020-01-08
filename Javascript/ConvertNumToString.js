@@ -1,10 +1,10 @@
-We need a function that can transform a number into a string.
+// We need a function that can transform a number into a string.
 
-What ways of achieving this do you know?
-Examples:
+// What ways of achieving this do you know?
+// Examples:
 
-numberToString(123); // returns '123';`   
-numberToString(999); // returns '999';`
+// numberToString(123); // returns '123';`   
+// numberToString(999); // returns '999';`
 
 
 
