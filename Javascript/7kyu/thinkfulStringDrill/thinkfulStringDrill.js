@@ -6,7 +6,7 @@
 
 // "aaaaa"
 
-function repeater(string, n){
+export default function repeater(string, n){
     let finalString = "";
     
     for (let i = 0; i < n; i++) {
