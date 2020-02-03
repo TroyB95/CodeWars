@@ -7,6 +7,6 @@
 
 // Input: 123456789 Output: 987654321
 
-function descendingOrder(n){
+export default function descendingOrder(n){
     return n.length <= 1 ? n:Number(n.toString(10).split('').map(t => parseInt(t)).sort((a,b) => a<b).join(''))
     }
