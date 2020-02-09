@@ -12,7 +12,7 @@
 // wave("hello") => ["Hello", "hEllo", "heLlo", "helLo", "hellO"]
 // Good luck and enjoy!
 
-function wave(inputString){
+export function wave(inputString){
     let finalArr = [];
     
       for(var i = 0; i < inputString.length; i++) {
