@@ -7,4 +7,11 @@ describe('Scramble', () => {
         expect(scramble('katas', 'steak')).toBe(false);
     })
 
+    describe('getFrequency', () => {
+        it('Should return an object which each characters frequency', () => {
+            expect(getFrequency('hello')).toEqual({h: 1, e: 1, l: 2, o: 1});
+            expect(getFrequency('teststring')).not.toEqual({h: 1, e: 1, l: 2, o: 1});
+        })
+    })
+
 })
