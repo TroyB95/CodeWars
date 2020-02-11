@@ -14,4 +14,11 @@ describe('Scramble', () => {
         })
     })
 
+
+    describe('compareObjectValues', () => {
+        it('Should return true if the first object contains all the characters of second object', () => {
+            expect(compareObjectValues({h: 2, e: 4, l: 2, o: 7}, {h: 2, e: 1, l: 2, o: 1})).toEqual(true);
+            expect(compareObjectValues({h: 1, e: 1, l: 1, o: 1}, {h: 2, e: 1, l: 2, o: 1})).toEqual(false);
+        })
+    })
 })
